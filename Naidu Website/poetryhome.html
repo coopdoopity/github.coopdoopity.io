@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial scale=1"/>
+    <style>
+            a:visited {
+        text-decoration: none;
+        color: white;
+        }
+      nav {
+        background-color: #000080;
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-bottom:10px;
+        padding-left: 10px;
+
+        color: white;
+        font-size: 20px;
+        word-spacing: 100px;
+        font-weight: bold;
+        text-align: center;
+      }
+      header{
+        margin: 1rem 0;
+        padding: 0rem 0;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+      }
+      body {
+        background-color: #FF9933;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+      }
+    	.column {
+    	  flex: 33.33%;
+    	  height: 200px;
+    	  padding: 10px;
+    	  margin: 5px;
+    	  background-color: #F9F6EE;
+    	  text-align: center;
+        border-style:groove;
+        border-color: #000080;
+        border-width:thick;
+    	}
+
+    	.container {
+    	   display: flex;
+
+    	}
+
+      img {
+        border: 2px #000080
+      }
+
+
+    </style>
+  </head>
+    <body>
+      <nav class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="poetryhome.html">Poetry</a>
+        <a href="speeches.html">Speeches</a>
+        <a href="about.html">About</a>
+      </nav>
+      <header><h1>3-column grid layout</h1></header>
+    	<main class="container">
+    	   <div class="column">
+    	     <h2>Love and Death</h2>
+           <a href="loveanddeath.html">
+           <img src="img/ns_cr1.jpg" height="100" width="100" style="background: gray;"/> </a>
+    		 <p></p>
+    	   </div>
+    	   <div class="column">
+    	     <h2>The Festival of Serpents</h2>
+           <a href="serpent.html">
+           <img height="100" width="100" style="background: gray;"/> </a>
+    	   </div>
+    	   <div class="column">
+    	     <h2> Third column </h2>
+    		 <p> This is third column of our grid system</p>
+    	   </div>
+    	</main>
+    </body>
+    </html>
